@@ -20,7 +20,7 @@ class EmoticonService {
     }
 
     public static function createDB() {
-        $stmt = self::$conn->prepare("CREATE TABLE mensajes(id INTEGER PRIMARY KEY , ts TEXT, remitente TEXT, texto TEXT;");    
+        $stmt = self::$conn->prepare("CREATE TABLE mensajes(id INTEGER PRIMARY KEY , ts TEXT, remitente TEXT, texto TEXT);");    
         $res =  $stmt->execute();
     }    
         

@@ -12,6 +12,7 @@ require_once dirname(__FILE__) . '/EmoticonService.php';
     <!-- generador por EmoticonService::renderStyle -->
     <style>
         <?php
+            print(EmoticonService::renderStyle());
         ?>
     </style>
     <!-- generador por EmoticonService::renderStyle -->
@@ -25,6 +26,7 @@ require_once dirname(__FILE__) . '/EmoticonService.php';
     <div class="machete">
         <!-- generador por EmoticonService::renderMachete -->
         <?php
+           print(EmoticonService::renderMachete());
         ?>
         <!-- generador por EmoticonService::renderMachete -->            
     </div>

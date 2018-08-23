@@ -1,6 +1,6 @@
 <?php
 require_once dirname(__FILE__) . '/MiEmoticonService.php';
 
-MiEmoticonService::truncateDB();
+MiEmoticonService::createDB();
 
 header('Location: /');
